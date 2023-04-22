@@ -1,0 +1,38 @@
+$primary-color: #000;
+$light-blue: #3a5a81;
+
+.navbar {
+  background-color: rgb(88, 176, 206);
+  padding: 20px 0 0 0;
+}
+
+.nav-items {
+  list-style: none;
+  margin: 0;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.tab {
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 2px;
+  background: #b2d6e4;
+  display: inline-block;
+  color: $primary-color;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.tab:hover {
+  box-shadow: none;
+  background-color: #fff;
+  border-top: 3px solid $light-blue;
+}
+
+.active {
+  box-shadow: none;
+  background-color: #fff;
+  border-top: 3px solid $light-blue;
+}

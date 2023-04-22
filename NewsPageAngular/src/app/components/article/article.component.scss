@@ -1,0 +1,42 @@
+.images{
+  width: 250px;
+  height: 250px;
+  border: 3px solid rgb(230, 230, 198);
+  justify-content: center;
+  object-fit: cover;
+  box-shadow: 0 0.5rem 0.8rem #00000050;
+}
+
+.article{
+  display: flex;
+  margin: 30px;
+  flex-wrap: wrap;
+  border: 3px solid rgb(88, 88, 88);
+}
+
+.content{
+  padding: 20px;
+}
+
+.date{
+  font-weight: bold;
+}
+
+.headline{
+  color: rgb(0, 153, 224);
+}
+
+.addition{
+  font-size: 16px;
+}
+
+.information{
+  display: flex;
+  text-decoration: none;
+  color:#000;
+  padding: 20px;
+}
+
+.information:hover{
+  font-size: 20px;
+}

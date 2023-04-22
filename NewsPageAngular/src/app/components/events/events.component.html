@@ -1,0 +1,9 @@
+<ng-container *ngFor="let event of events; trackBy:eventTracker">
+  <app-article
+      [imgSrc]="event.imgSrc"
+      [date]="event.date"
+      [headline]="event.headline"
+      [informationHref]="event.informationHref"
+      [subTitle]="event.subTitle">
+  </app-article>
+</ng-container>

@@ -1,0 +1,9 @@
+<ng-container *ngFor="let article of articles; trackBy:articleTracker">
+    <app-article
+        [imgSrc]="article.imgSrc"
+        [date]="article.date"
+        [headline]="article.headline"
+        [informationHref]="article.informationHref"
+        [subTitle]="article.subTitle">
+    </app-article>
+</ng-container>
